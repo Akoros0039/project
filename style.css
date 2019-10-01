@@ -188,7 +188,7 @@ p{
 .services__items {
     list-style: none;
     column-count: 2;
-    column-gap: 9rem;
+    column-gap: 14rem;
 }
 .services__item {
     margin-bottom: 8rem;
@@ -224,7 +224,6 @@ p{
 .services__item:active::before {
     color: #f6772c;
 }
-
 .services__big-text {
     text-transform: uppercase;
     font-family: 'Lato', sans-serif;
@@ -237,4 +236,43 @@ p{
     color: #7b7b7b;
     font-size: 1.3rem;
     width: 44rem;
+}
+/*About us*/
+.about {
+    height: 62.3rem;
+    background-color: #ffc155;
+}
+.about__background-img {
+    background-image: url("img/about_us.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 62.3rem;
+    width: 50vw;
+    float: left;
+}
+.about__box {
+    float: left;
+    margin-left: 8rem;
+    margin-top: 16rem;
+}
+.about__about-us {
+    font-family: 'Gotham Black', sans-serif;
+    font-size: 3rem;
+    color: white;
+    text-transform: uppercase;
+    margin-bottom: 3rem;
+}
+.about__about-text {
+    font-size: 1.3rem;
+    color: white;
+    width: 50.5rem;
+    margin-bottom: 3.5rem;
+}
+.about__read-more {
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 1.5rem;
+    padding: 1.5rem 3rem;
+    border: 1px solid #e7ad48;
 }
