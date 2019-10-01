@@ -56,7 +56,7 @@ p{
 /*Banner*/
 .banner {
     height: 76rem;
-    background-image: linear-gradient(to bottom, #709dca, #709dca 77%, lightgreen 33%, lightgreen);
+    background-image: linear-gradient(to bottom, #709dca, #709dca 77%, white 33%, white);
 }
 .banner__text-bold {
     display: flex;
@@ -85,7 +85,29 @@ p{
     height: 4.5rem;
     width: 28rem;
     margin-right: 1rem;
+    padding-left: 4.5rem;
 }
+.banner__input-wrapper{
+    position: relative;
+}
+.banner__input-wrapper::before{
+    position: absolute;
+    top: 1.3rem;
+    left: 1.7rem;
+    display: block;
+    color: black;
+    content: '\f007';
+    font-family: 'Font Awesome 5 Free', 'Font Awesome 5 Brands', sans-serif;
+    font-weight: 900;
+    font-size: 1.5rem;
+}
+.email::before{
+    content: '\f0e0';
+}
+.phone::before{
+    content: '\f879';
+}
+
 .banner__full-name::placeholder {
     color: #6e6e6e;
     font-size: 1.3rem;
@@ -104,5 +126,37 @@ p{
     text-transform: uppercase;
     font-size: 1.4rem;
     margin-right: 0;
+    padding-left: 0;
     width: 21rem;
+}
+.banner__laptop{
+    margin-top: 6.5rem;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+.banner__laptop-screen {
+    position: absolute;
+    top: 1.9rem;
+    height: 26.4rem;
+    width: 44.5rem;
+}
+.banner__circles {
+    display: flex;
+    justify-content: center;
+    margin-top: 2.2rem;;
+}
+.banner__circle{
+    height: 1.5rem;
+    width: 1.5rem;
+    border: 2px solid #dedfe0;
+    border-radius: 50%;
+    background-color: transparent;
+}
+.margins {
+    margin: 0 1rem;
+}
+.banner__circle:active,
+.banner__circle:hover {
+    border-color: #1da8dd;
 }
