@@ -138,8 +138,7 @@ p{
 .banner__laptop-screen {
     position: absolute;
     top: 1.9rem;
-    height: 26.4rem;
-    width: 44.5rem;
+    margin-left: 2px;
 }
 .banner__circles {
     display: flex;
@@ -159,4 +158,83 @@ p{
 .banner__circle:active,
 .banner__circle:hover {
     border-color: #1da8dd;
+}
+/*Services*/
+.services {
+    height: 76rem;
+    background-color: lightgreen;
+}
+.services__text-bold {
+    display: flex;
+    justify-content: center;
+    font-family: 'Gotham Black', sans-serif;
+    font-size: 2.9rem;
+    text-transform: uppercase;
+    padding-top: 3.7rem;
+    color: #394b50;
+}
+.services__text-light {
+    display: flex;
+    justify-content: center;
+    font-size: 1.6rem;
+    padding-bottom: 3rem;
+    color: #394b50;
+}
+.services__wrapper-items {
+    display: flex;
+    justify-content: center;
+    margin-top: 9rem;
+}
+.services__items {
+    list-style: none;
+    column-count: 2;
+    column-gap: 9rem;
+}
+.services__item {
+    margin-bottom: 8rem;
+    position: relative;
+}
+.services__item::before{
+    position: absolute;
+    top: 0;
+    left: -6rem;
+    display: block;
+    color: #79a3cd;
+    content: '\f017';
+    font-family: 'Font Awesome 5 Free', 'Font Awesome 5 Brands', sans-serif;
+    font-weight: 900;
+    font-size: 4.5rem;
+}
+.hat::before {
+    content: '\f6e8';
+}
+.circle::before {
+    content: '\f1ce';
+}
+.gear::before {
+    content: '\f013';
+}
+.rocket::before {
+    content: '\f135';
+}
+.dollar::before {
+    content: '\f155';
+}
+.services__item:hover::before,
+.services__item:active::before {
+    color: #f6772c;
+}
+
+.services__big-text {
+    text-transform: uppercase;
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+    font-size: 1.6rem;
+    color: #394b50;
+    margin-bottom: 2rem;
+}
+.services__small-text {
+    color: #7b7b7b;
+    font-size: 1.3rem;
+    width: 44rem;
 }
