@@ -52,6 +52,7 @@ p{
 .header__nav-item a:active {
     color: white;
     background-color: #ffbb42;
+    border-radius: 2px;
 }
 /*Banner*/
 .banner {
@@ -128,6 +129,7 @@ p{
     margin-right: 0;
     padding-left: 0;
     width: 21rem;
+    border-radius: 2px;
 }
 .banner__laptop{
     margin-top: 6.5rem;
@@ -274,6 +276,7 @@ p{
     font-size: 1.5rem;
     padding: 1.5rem 3rem;
     border: 1px solid #e7ad48;
+    border-radius: 2px;
 }
 /*Plans*/
 .plans {
@@ -387,6 +390,7 @@ p{
     font-size: 1.4rem;
     padding: 1.5rem 2rem;
     background-color: #ffbb42;
+    border-radius: 2px;
 }
 .premium-text-color {
     color: white;
@@ -394,4 +398,89 @@ p{
 .premium-abilities{
     border-top: 1px solid #8eb8e2;
     color: #c2e1ff;
+}
+/*How it work*/
+.how-it-work {
+    height: 87rem;
+}
+.how-it-work__text-bold {
+    display: flex;
+    justify-content: center;
+    text-transform: uppercase;
+    font-family: 'Gotham Black', sans-serif;
+    color: #394b50;
+    font-size: 3rem;
+    padding-top: 15rem;
+}
+.how-it-work__text-light {
+    display: flex;
+    justify-content: center;
+    font-family: 'Lato', sans-serif;
+    color: #394b50;
+    font-size: 1.8rem;
+    font-weight: lighter;
+}
+.how-it-work__steps-wrapper {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-top: 27rem;
+}
+.how-it-work__step {
+    width: 21.5rem;
+    margin-right: 5rem;
+    position: relative;
+}
+#step4 {
+    margin-right: 0;
+}
+.how-it-work__step::before{
+    position: absolute;
+    top: -15rem;
+    left: 8rem;
+    display: block;
+    color: #79a3cd;
+    content: '\f025';
+    font-family: 'Font Awesome 5 Free', 'Font Awesome 5 Brands', sans-serif;
+    font-weight: 900;
+    font-size: 5.5rem;
+}
+.unlock::before {
+    content: '\f09c';
+}
+.cloud::before {
+    content: '\f382';
+}
+.like::before {
+    content: '\f164';
+}
+.how-it-work__step-number {
+    display: flex;
+    justify-content: center;
+    text-transform: uppercase;
+    color: #394b50;
+    font-family: 'Lato', sans-serif;
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 3rem;
+}
+.how-it-work__step-text {
+    color: #7b7b7b;
+    font-size: 1.3rem;
+    text-align: center;
+}
+.how-it-worl__how-it-works-wrapper {
+    margin-top: 9rem;
+    display: flex;
+    justify-content: center;
+}
+.how-it-work__how-it-works {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+    font-family: 'Lato', sans-serif;
+    font-size: 1.4rem;
+    padding: 1.5rem 2.5rem;
+    background-color: #ffbb42;
+    border-radius: 2px;
 }
