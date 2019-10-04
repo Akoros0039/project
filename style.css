@@ -96,11 +96,11 @@ p{
     top: 1.3rem;
     left: 1.7rem;
     display: block;
-    color: black;
     content: '\f007';
     font-family: 'Font Awesome 5 Free', 'Font Awesome 5 Brands', sans-serif;
     font-weight: 900;
     font-size: 1.5rem;
+    color: #6e6e6e;
 }
 .email::before{
     content: '\f0e0';
@@ -582,4 +582,138 @@ q:after  {
 }
 .clients__client-name span {
     color: #99a9ae;
+}
+/*Newsletter*/
+.newsletter {
+    height: 33rem;
+}
+.newsletter__text-bold {
+    display: flex;
+    justify-content: center;
+    color: #394b50;
+    text-transform: uppercase;
+    font-family: 'Gotham Black', sans-serif;
+    font-size: 3rem;
+    padding-top: 15rem;
+}
+.newsletter__text-light {
+    display: flex;
+    justify-content: center;
+    color: #394b50;
+    font-size: 1.6rem;
+    font-weight: lighter;
+}
+
+.newsletter__form {
+    display: flex;
+    justify-content: center;
+    margin-top: 4rem;
+}
+.newsletter__form input{
+    border-radius: 2px;
+    border: 1px solid #cbcbcb;
+    height: 4.5rem;
+    width: 28rem;
+    margin-right: 1rem;
+    padding-left: 4.5rem;
+}
+.newsletter__input-wrapper{
+    position: relative;
+}
+.newsletter__input-wrapper::before{
+    position: absolute;
+    top: 1.3rem;
+    left: 1.7rem;
+    display: block;
+    color: #6e6e6e;
+    content: '\f007';
+    font-family: 'Font Awesome 5 Free', 'Font Awesome 5 Brands', sans-serif;
+    font-weight: 900;
+    font-size: 1.5rem;
+}
+.email::before{
+    content: '\f0e0';
+}
+.newsletter__form .newsletter__full-name {
+    width: 30.6rem;
+}
+.newsletter__form .newsletter__email {
+    width: 38.5rem;
+}
+.newsletter__full-name::placeholder {
+    color: #6e6e6e;
+    font-size: 1.3rem;
+}
+.newsletter__email::placeholder {
+    color: #6e6e6e;
+    font-size: 1.3rem;
+}
+.newsletter__form .newsletter__submit {
+    background-color: #ffbb42;
+    color: white;
+    text-transform: uppercase;
+    font-size: 1.4rem;
+    margin-right: 0;
+    padding-left: 0;
+    width: 21rem;
+    border-radius: 2px;
+}
+/*Map*/
+.map {
+    height: 54.9rem;
+    background-color: white;
+}
+.dotted-map {
+    background: no-repeat center url("img/dotted-map.jpg");
+    height: 549px;
+}
+.map__circle-wrapper {
+    display: flex;
+    justify-content: center;
+}
+.map__circle {
+    margin-top: 4rem;
+    height: 28rem;
+    width: 28rem;
+    border-radius: 50%;
+    background-color: #394b50;
+    position: relative;
+}
+.map__circle-triangle {
+    position: absolute;
+    left: 13.4rem;
+    bottom: -1.6rem;
+    border-left: 1rem solid transparent;
+    border-right: 1rem solid transparent;
+    border-top: 1.8rem solid #394b50;
+}
+.map__logo {
+    position: absolute;
+    background-image: url("img/logo.png");
+    height: 4.8rem;
+    width: 5rem;
+    left: 12rem;
+    bottom: -7rem;
+}
+.map__circle-address {
+    display: flex;
+    justify-content: center;
+    margin-top: 5.5rem;
+    margin-bottom: 1.8rem;
+    text-transform: uppercase;
+    color: white;
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+.map__circle-item {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: #aeb7ba;
+    font-size: 1.3rem;
+    margin-bottom: 0.7rem;
+}
+#email-color {
+    color: #ffbb42;
 }
